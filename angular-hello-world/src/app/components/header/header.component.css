@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif !important; /* Aplica la fuente Roboto */
+}
+
+.header{
+    background-color: white(0, 0, 0, 0.82);
+    color:black;
+    text-align: center;
+    /* border:1px solid orange; */
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    color:white;
+    align-content: center;
+    width: 50%;
+}
+
+.menu{
+    /* border:1px solid greenyellow; */
+    width: 50%;
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+a{
+    color:black
+}
+
+.active-link {
+    color: rgb(18, 120, 174); /* Color para el enlace activo */
+    font-weight: bold; /* Opcional: hacer el texto en negrita */
+    /* border-bottom: 2px solid rgb(154, 14, 14); Opcional: agregar una línea debajo */
+}
+
+#logo{
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
