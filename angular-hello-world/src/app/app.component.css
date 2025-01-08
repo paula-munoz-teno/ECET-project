@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-    font-family: 'Roboto', sans-serif !important; /* Aplica la fuente Roboto */
-}
 
 @import "node_modules/ngx-toastr/toastr.css";
 

@@ -1,0 +1,24 @@
+.footer{
+    border: 1px solid cornflowerblue;
+    background-color: rgb(243, 241, 241);
+    color:rgb(38, 91, 167);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height:100px;
+    align-items: center;
+    position: relative;
+    z-index: 1000; /* Asegúrate de que el z-index sea alto */
+
+
+}
+
+a{
+    color:black;
+}
+
+#uam{
+    height: 120px;
+    width: 200px;
+}

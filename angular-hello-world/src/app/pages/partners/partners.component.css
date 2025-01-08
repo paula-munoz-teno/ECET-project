@@ -1,0 +1,34 @@
+/* .padre{
+    border:2px solid orange;
+    background-color:rgb(6, 70, 109);
+    width: 100%;
+    height:89vh;
+    display:flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ body {
+     font-family: 'Roboto', sans-serif !important; /* Aplica la fuente Roboto */
+ }
+ 
+ .padre{
+     border:4px solid orange;
+     width: 100%;
+     height:89vh;
+     display:flex;
+     flex-direction: row;
+     margin-top: 15px;
+
+ }
+ 
+ .hijo{
+     background-color:rgb(6, 70, 109);
+     height:100%;
+     width:100%;
+ 
+ }
+ 
+ 
