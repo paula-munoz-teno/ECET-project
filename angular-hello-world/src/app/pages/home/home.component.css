@@ -7,7 +7,7 @@ body {
 
 .padre {
     width: 100%;
-    height: 100vh; /* Ajusta la altura según sea necesario */
+    height:79vh;
     display: flex;
     flex-direction: column; /* Cambiado a columna para evitar problemas de alineación */
     justify-content: center; /* Centra verticalmente */
@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     color: rgba(231, 229, 229, 0.893);
-    width: 55%; /* Mantiene el ancho */
+    width: 38%; /* Mantiene el ancho */
     text-align: center; /* Centra el texto */
     margin: 0; /* Elimina márgenes que podrían causar saltos */
 }
@@ -46,7 +46,7 @@ h2 {
     height: auto; /* Permite que el contenedor ajuste su altura automáticamente */
     max-width: 800px; /* Ancho máximo */
     overflow: hidden; /* Para que no se desborde el contenido */
-    margin-top: 20px; /* Espaciado superior para el video */
+    margin-top: 120px; /* Espaciado superior para el video */
 }
 
 video {

@@ -9,19 +9,18 @@ body {
 
 .padre {
     width: 100%;
-    height: 100%;
+    height: 79vh;
     display: flex;
     flex-direction: row;
 }
 
 .hijo {
     background-color: rgb(6, 70, 109);
-    /* border: 2px solid greenyellow; */
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding: 0px 0px 40px 0px;
 }
@@ -50,7 +49,6 @@ header {
 }
 
 .hijo2 {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -73,8 +71,12 @@ header {
 }
 
 h1 {
-    color: white;
-    color: black;
+    color: rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Cambiado a flex-start para alinear los elementos al inicio */
+    align-items: center;
+    margin-top: 60px;
 }
 
 .H {
@@ -95,7 +97,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 80%;
+    width: 90%; /* Aumenta el ancho a 90% o 100% según sea necesario */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -108,8 +110,13 @@ textarea {
     align-items: left; /* Centra el contenido */
     justify-content: center;
     margin-top: 10px; /* Espacio entre el enlace y el botón */
-    /* border: 2px solid green; */
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 button {
     background: #35424a;
@@ -118,20 +125,31 @@ button {
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 4px;
+    width: 150px;
+    margin:20px
 }
 
-.but{
-    /* border:2px solid blue; */
+#coop{
+    width:250px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#participation{
+    margin-top: 80px;
+}
+
+.but {
     display: flex;
     flex-direction: column; /* Alinea el enlace y el botón verticalmente */
     align-items: left; /* Centra el contenido */
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
-.H{
+.H {
     margin-bottom: 40px;
-    color:rgb(10, 141, 207);
+    color: rgb(10, 141, 207);
 }
 
 button:hover {
