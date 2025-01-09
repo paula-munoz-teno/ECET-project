@@ -2,9 +2,9 @@
 
 .header{
     background-color: white(0, 0, 0, 0.82);
-    background-color: rgba(183, 196, 213, 0.915);
+    /* background-color: rgba(183, 196, 213, 0.915);
     background-color: rgb(198, 227, 166);
-    background-color: black;
+    background-color: black; */
     /* background-color: rgba(212, 202, 188, 0.516); */
     color:black;
     text-align: center;
@@ -21,9 +21,9 @@
 
 #title{
     color:white;
-    color: rgb(177, 205, 220);
+    /* color: rgb(177, 205, 220);
     color: rgb(198, 227, 166);
-    color: black;
+    color: black; */
     /* color:rgba(212, 202, 188, 0.412); */
     align-content: center;
     width: 50%;
@@ -40,18 +40,18 @@
 
 a{
     color:black;
-    color: white;
+    /* color: white; */
 }
 
 .active-link {
-    color: rgba(77, 154, 205, 0.679); /* Color para el enlace activo */
+    color: rgba(21, 134, 210, 0.949); /* Color para el enlace activo */
     font-weight: bold; /* Opcional: hacer el texto en negrita */
     /* border-bottom: 2px solid rgb(154, 14, 14); Opcional: agregar una línea debajo */
 }
 
 #logo{
     /* border: 2px solid red; */
-    height: 60px;
+    height: 50px;
     width: 200px;
     margin-left: 100px;
     
