@@ -66,11 +66,11 @@ a{
     border-radius: 500px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px; /* Ancho de cada tarjeta */
-    height: 300px;
+    width: 330px; /* Ancho de cada tarjeta */
+    height: 330px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
@@ -80,12 +80,18 @@ a{
 p{
     width:270px;
 }
+
+.fecha{
+font-weight: 700;
+}
+
 #pasado{
     background-color: gainsboro;
 }
 
 .card h2 {
     margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; /* Línea debajo del título para separarlo visualmente */
 }
 
 h2{
@@ -93,7 +99,7 @@ h2{
     /* border: 2px solid green; */
     background-color:rgb(255, 221, 0); /* Color de fondo del botón */
     border-radius: 5px;
-    width: 70%;
+    width: 40%;
 }
 
 .card p {
