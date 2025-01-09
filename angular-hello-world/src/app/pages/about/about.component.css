@@ -231,4 +231,6 @@ h4{
 
 button:hover {
     background-color: rgb(255, 221, 0); /* Color de fondo del botón */
+    background-color: rgb(65, 122, 168);
+
 }
