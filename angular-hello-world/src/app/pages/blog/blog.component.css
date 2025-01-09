@@ -11,6 +11,8 @@ body {
 
 .hijo {
     background-color: rgb(6, 70, 109);
+    background-color: black;
+    background-color: rgb(35, 35, 35);
     /* background-color: #f0f0f0; */
     height: 100%;
     width: 100%;
@@ -127,6 +129,5 @@ h3{
 
 .button:hover {
     background-color:rgb(219, 214, 214) ; /* Color de fondo al pasar el ratón */
-    background-color:rgb(255, 221, 0); /* Color de fondo del botón */
-
+    background-color: rgb(65, 122, 168);
 }

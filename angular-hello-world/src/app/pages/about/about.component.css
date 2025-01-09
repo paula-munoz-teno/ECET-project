@@ -24,6 +24,8 @@
 
 .hijo{
     background-color:rgb(6, 70, 109);
+    background-color: black;
+    background-color: rgb(35, 35, 35);
     /* background-color: white; */
     /* background-color: black; */
     /* border: 2px solid greenyellow; */
@@ -105,7 +107,8 @@ h2 {
     margin-bottom: 20px; /* Espacio debajo del título de la tarjeta */
     margin-top: 30px;
     /* border: 2px solid red; */
-    background-color: rgb(255, 221, 0);
+    /* background-color: rgb(255, 221, 0); */
+    background-color: (39, 125, 172, 0.949);
     width: 420px;
 }
 
@@ -156,7 +159,7 @@ p{
     justify-content: space-evenly;
     /* border:2px solid blue; */
     width: 90%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -174,7 +177,9 @@ p{
 
 #uam{
     margin-top: 20px;
-    width:420px
+    width:420px;
+    line-height: 1.6;
+
 }
 
 
@@ -187,9 +192,19 @@ p{
     font-weight: 400;
 }
 
+.evix{
+        /* border:2px solid red; */
+        width: 90px;
+        height: 20px;
+        /* background-color: aqua; */
+        margin-bottom: 5px;
+        font-weight: 400;
+    
+}
+
 
 button {
-    background: #35424a;
+    background:rgba(111, 135, 148, 0.949);
     color: #ffffff;
     border: none;
     padding: 10px 15px;
@@ -210,6 +225,8 @@ button {
 
 h4{
     color: rgb(26, 93, 161);
+    color: rgb(78, 113, 148);
+    /* color:rgba(39, 125, 172, 0.949) */
 }
 
 button:hover {

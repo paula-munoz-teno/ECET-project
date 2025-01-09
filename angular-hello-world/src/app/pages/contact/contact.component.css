@@ -16,6 +16,8 @@ body {
 
 .hijo {
     background-color: rgb(6, 70, 109);
+    background-color: black;
+    background-color: rgb(35, 35, 35);
     height: 100%;
     width: 100%;
     display: flex;
@@ -153,4 +155,6 @@ button {
 
 button:hover {
     background-color: rgb(255, 221, 0); /* Color de fondo del botón */
+    background-color: rgb(65, 122, 168);
+
 }

@@ -24,10 +24,14 @@
 
 h3{
     color:#0056b3;
+    color: rgb(68, 117, 165);
+
 }
 
 .hijo{
     background-color:rgb(6, 70, 109);
+    background-color: black;
+    background-color: rgb(35, 35, 35);
     /* background-color: white; */
     /* background-color: black; */
     /* border: 2px solid greenyellow; */
@@ -50,6 +54,8 @@ h1{
 
 a{
     color:white;
+    
+
 }
 .hijo2{
        /* border: 2px solid greenyellow; */
@@ -113,14 +119,22 @@ font-weight: 700;
 
 h2{
     color:black;
+    color:white;
     /* border: 2px solid green; */
-    background-color:rgb(255, 221, 0); /* Color de fondo del botón */
+    /* background-color:rgb(255, 221, 0); Color de fondo del botón */
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     width: 30%;
+    text-shadow: 
+    0 0 5px #ffffff, /* Brillo blanco */
+    0 0 10px #ffffff, /* Brillo más fuerte */
+    0 0 15px #abaaab, /* Brillo de color */
+    0 0 20px #9a989a, /* Brillo más fuerte de color */
+    0 0 25px #797779; /* Brillo aún más fuerte de color */
+
 }
 
 .card p {

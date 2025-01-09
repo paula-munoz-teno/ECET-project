@@ -45,14 +45,14 @@ a{
 }
 
 .active-link {
-    color: rgba(21, 134, 210, 0.949); /* Color para el enlace activo */
+    color: rgba(39, 125, 172, 0.949); /* Color para el enlace activo */
     font-weight: bold; /* Opcional: hacer el texto en negrita */
     /* border-bottom: 2px solid rgb(154, 14, 14); Opcional: agregar una línea debajo */
 }
 
 #logo{
     /* border: 2px solid red; */
-    height: 75px;
+    height: 120px;
     width: 300px;
     margin-left: 100px;
     
