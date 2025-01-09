@@ -61,13 +61,15 @@ header {
     background: #ffffff;
     width: 25%;
     padding: 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Cambiado a flex-start para alinear los elementos al inicio */
+    justify-content: space-between; /* Cambiado a space-between para alinear los elementos */
     align-items: center;
+    height: 620px;
+    
 }
 
 h1 {
@@ -82,6 +84,8 @@ h1 {
 .H {
     color: black;
 }
+
+
 
 h2 {
     color: #35424a;
@@ -107,16 +111,11 @@ textarea {
 .button-container {
     display: flex;
     flex-direction: column; /* Alinea el enlace y el botón verticalmente */
-    align-items: left; /* Centra el contenido */
+    align-items: center; /* Centra el contenido */
     justify-content: center;
     margin-top: 10px; /* Espacio entre el enlace y el botón */
-    /* border:2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 25px;
 }
-
 
 button {
     background: #35424a;
@@ -125,24 +124,24 @@ button {
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 4px;
-    width: 150px;
-    margin:20px
+    width: 150px; /* Ancho fijo para todos los botones */
+    margin: 10px 0; /* Margen vertical para separación */
 }
 
-#coop{
-    width:250px;
+#coop {
+    width: 250px;
     margin-top: 60px;
     margin-bottom: 50px;
 }
 
-#participation{
+#participation {
     margin-top: 80px;
 }
 
 .but {
     display: flex;
     flex-direction: column; /* Alinea el enlace y el botón verticalmente */
-    align-items: left; /* Centra el contenido */
+    align-items: center; /* Centra el contenido */
     justify-content: center;
     width: 100%;
 }
