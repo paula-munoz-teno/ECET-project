@@ -128,12 +128,7 @@ h2{
     align-items: center;
     border-radius: 10px;
     width: 30%;
-    text-shadow: 
-    0 0 5px #ffffff, /* Brillo blanco */
-    0 0 10px #ffffff, /* Brillo más fuerte */
-    0 0 15px #abaaab, /* Brillo de color */
-    0 0 20px #9a989a, /* Brillo más fuerte de color */
-    0 0 25px #797779; /* Brillo aún más fuerte de color */
+   
 
 }
 
